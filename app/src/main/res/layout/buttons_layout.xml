@@ -1,0 +1,67 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/buttonHome"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:clickable="true"
+            android:onClick="onClickHome"
+            android:src="@drawable/ic_home"
+            android:text="Home" />
+
+        <ImageButton
+            android:id="@+id/buttonMap"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:clickable="true"
+            android:onClick="onClickMap"
+            android:src="@drawable/ic_map"
+            android:text="Map" />
+
+        <ImageButton
+            android:id="@+id/buttonPresenter"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:clickable="true"
+            android:onClick="onClickPresenter"
+            android:src="@drawable/ic_presenter"
+            android:text="Presenter" />
+
+        <ImageButton
+            android:id="@+id/buttonOrders"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:clickable="true"
+            android:onClick="onClickOrders"
+            android:src="@drawable/ic_order"
+            android:text="Order" />
+
+        <ImageButton
+            android:id="@+id/buttonSync"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:clickable="true"
+            android:onClick="onClickSync"
+            android:src="@drawable/ic_sync"
+            android:text="Order" />
+    </LinearLayout>
+</merge>

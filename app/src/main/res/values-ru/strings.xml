@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ sms
+  ~ Created by A.Kolchev  3.3.2016
+  -->
+
+<resources>
+    <string name="app_name">sms</string>
+    <string name="at_time">" в "</string>
+    <string name="error_incorrect_password">Логин или Пароль не верный. Попробуйте еще раз.</string>
+    <string name="error_need_connection">Необходимо онлайн соединение с сервером.\nВключите Wi-Fi или мобильную сеть для передачи данных.</string>
+    <string name="error_server_connection">Ошибка связи с сервером.</string>
+    <string name="error_title">Ошибка</string>
+    <string name="get_routs_label">Получить маршруты</string>
+    <string name="loading">Загрузка…</string>
+    <string name="login_button">Войти</string>
+    <string name="login_label">Логин</string>
+    <string name="login_progress_title">Аутентификация</string>
+    <string name="no_data">Нет данных</string>
+    <string name="password_label">Пароль</string>
+    <string name="progress_message">Подождите, пожалуйста…</string>
+    <string name="time_period">"c %1$s по %2$s"</string>
+    <string name="title_activity_main">SMS</string>
+    <string name="title_activity_map">Карта</string>
+    <string name="title_activity_routs">Маршруты</string>
+    <string name="ongoing_sync_notification">Синхронизация в прогрессе..</string>
+    <string name="today">Сегодня</string>
+    <string name="tomorrow">Завтра</string>
+    <string name="yesterday">Вчера</string>
+    <string name="get_items_label">Получить товары</string>
+    <string name="title_activity_presenter">Товары</string>
+</resources>
